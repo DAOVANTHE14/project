@@ -1,0 +1,111 @@
+.menu .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .menu a:not(:first-child) {
+    display: none;
+  }
+  .menu a.icon {
+    float: right;
+    display: block;
+  }
+}
+ .menu.responsive {float: none;}
+  .menu.responsive  {position: relative;}
+  .menu.responsive {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+/*@media (min-width: 120px) {
+  .product-container .product-meta h5 a {
+    font-size: 18px;
+    font-weight: bold;
+
+  }
+  .products-description .button_group {
+    padding-top: 10px;
+    float: right;
+  }
+  .button, button{
+    font-size: 10px;
+  }
+  .danh-muc.widget__title{
+    text-align: left;
+  }
+}
+@media (min-width: 576px) {
+  .main-menu{
+    float: none;
+    display: inline-block;
+  }
+  .wrap-menu{
+    text-align: left !important;
+    display: none;
+  }
+
+  .main-menu > li{
+    float: none;
+  }
+  .wrap{
+    width: 100%;
+  }
+  .product-container .product-meta h5 a {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+}
+
+
+/* CSS danh riêng cho từng màn hình khác nhau */
+@media (min-width: 768px) {
+  .main-menu{
+    float: none;
+    display: inline-block;
+  }
+  .wrap-menu{
+    text-align: left !important;
+    display: none;
+  }
+
+  .main-menu > li{
+    float: none;
+  }
+  .product-container .product-meta h5 a {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+}
+@media (min-width: 992px) {
+  .main-menu{
+    float: right;
+    display: block;
+  }
+  .wrap-menu{
+    text-align: right !important;
+    display: block;
+  }
+  .logo{
+    text-align: left;
+  }
+  .main-menu > li{
+    float: left;
+  }
+  .navbar-toggler.show-menu{
+    display: none;
+  }
+  .product-container .product-meta h5 a {
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
+@media (min-width: 1200px) {
+  .product-container .product-meta h5 a {
+    font-size: 10px;
+    font-weight: bold;
+  }
+}*/
+
